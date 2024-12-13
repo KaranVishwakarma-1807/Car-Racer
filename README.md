@@ -29,7 +29,9 @@
  <br>
  In every version I have tried to make it more complex and interesting.
  <br>
- And I'll try to imporve it as much as I can..
+ Even though it has one major issue that is no "pixel perfect" masking due to custom made assets, that means the objects and the rectengle are not properly overlapping each other, that results in collion between the car and some unseen pixels which will work as a hurdle which the player will not be able to see but I'll try to imporve it as much as I can and try to come up with a solution...
+<br>
+Here I also wanted to add one more thing that is, the computer car will not face anything kind of interuptions due to does unseen pixels because it have a predified path that the computer car will follow and also it do not have any kind of collision detection with the unseen pixels.
 
  I hope you enjoy this game.
  <br>
