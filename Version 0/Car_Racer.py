@@ -9,21 +9,21 @@ pygame.font.init() #to initialise the font funtion
 
 
 #loading all the images
-GRASS = scale_images(pygame.image.load(os.path.join("./Resources","grass.jpg")), 1.8) #-> method_1 of scaling
+GRASS = scale_images(pygame.image.load(os.path.join("./Version 0","Resources","grass.jpg")), 1.8) #-> method_1 of scaling
 
-ICON = pygame.image.load(os.path.join("./Resources","icon.png"))
+ICON = pygame.image.load(os.path.join("./Version 0","Resources","icon.png"))
 
-GREEN_CAR = pygame.image.load(os.path.join("./Resources","green-car.png"))
-GREY_CAR = pygame.image.load(os.path.join("./Resources","grey-car.png"))
-PURPLE_CAR = pygame.image.load(os.path.join("./Resources","purple-car.png"))
-WHITE_CAR = scale_images(pygame.image.load(os.path.join("./Resources","white-car.png")), 0.4)
-RED_CAR = scale_images(pygame.image.load(os.path.join("./Resources","red-car.png")), 0.4)
+GREEN_CAR = pygame.image.load(os.path.join("./Version 0","Resources","green-car.png"))
+GREY_CAR = pygame.image.load(os.path.join("./Version 0","Resources","grey-car.png"))
+PURPLE_CAR = pygame.image.load(os.path.join("./Version 0","Resources","purple-car.png"))
+WHITE_CAR = scale_images(pygame.image.load(os.path.join("./Version 0","Resources","white-car.png")), 0.4)
+RED_CAR = scale_images(pygame.image.load(os.path.join("./Version 0","Resources","red-car.png")), 0.4)
 
-TRACK_BORDER = scale_images(pygame.image.load(os.path.join("./Resources","track-border.png")), 0.73)
+TRACK_BORDER = scale_images(pygame.image.load(os.path.join("./Version 0","Resources","track-border.png")), 0.73)
 TRACK_BORDER_MASK = pygame.mask.from_surface(TRACK_BORDER)  #creating a mask
-TRACK = scale_images(pygame.image.load(os.path.join("./Resources","track.png")), 0.73)
+TRACK = scale_images(pygame.image.load(os.path.join("./Version 0","Resources","track.png")), 0.73)
 
-FINISH = scale_images(pygame.image.load(os.path.join("./Resources","finish.png")), 0.8)
+FINISH = scale_images(pygame.image.load(os.path.join("./Version 0","Resources","finish.png")), 0.8)
 FINISH_MASK = pygame.mask.from_surface(FINISH)
 FINISH_POSITION = (110, 190)
 

@@ -10,42 +10,42 @@ pygame.mixer.init()
 
 
 #loading all the images
-GRASS = scale_images(pygame.image.load(os.path.join("./Resources", "Car_Racer",  "grass.jpg")), 1.8) #-> method_1 of scaling
+GRASS = scale_images(pygame.image.load(os.path.join("./Version 1.0", "Resources", "grass.jpg")), 1.8) #-> method_1 of scaling
 
-ICON = pygame.image.load(os.path.join("./Resources", "Car_Racer", "icon.png"))
+ICON = pygame.image.load(os.path.join("./Version 1.0", "Resources","icon.png"))
 
-GREEN_CAR = pygame.image.load(os.path.join("./Resources", "Car_Racer",  "green-car.png"))
-GREY_CAR = pygame.image.load(os.path.join("./Resources", "Car_Racer",  "grey-car.png"))
-PURPLE_CAR = pygame.image.load(os.path.join("./Resources", "Car_Racer",  "purple-car.png"))
-WHITE_CAR = scale_images(pygame.image.load(os.path.join("./Resources", "Car_Racer",  "white-car.png")), 0.4)
-RED_CAR = scale_images(pygame.image.load(os.path.join("./Resources", "Car_Racer",  "red-car.png")), 0.4)
+GREEN_CAR = pygame.image.load(os.path.join("./Version 1.0", "Resources", "green-car.png"))
+GREY_CAR = pygame.image.load(os.path.join("./Version 1.0", "Resources", "grey-car.png"))
+PURPLE_CAR = pygame.image.load(os.path.join("./Version 1.0", "Resources", "purple-car.png"))
+WHITE_CAR = scale_images(pygame.image.load(os.path.join("./Version 1.0", "Resources", "white-car.png")), 0.4)
+RED_CAR = scale_images(pygame.image.load(os.path.join("./Version 1.0", "Resources", "red-car.png")), 0.4)
 
-TRACK_BORDER = scale_images(pygame.image.load(os.path.join("./Resources", "Car_Racer",  "track-border.png")), 0.73)
+TRACK_BORDER = scale_images(pygame.image.load(os.path.join("./Version 1.0", "Resources", "track-border.png")), 0.73)
 TRACK_BORDER_MASK = pygame.mask.from_surface(TRACK_BORDER)  #creating a mask
-TRACK = scale_images(pygame.image.load(os.path.join("./Resources", "Car_Racer",  "track.png")), 0.73)
+TRACK = scale_images(pygame.image.load(os.path.join("./Version 1.0", "Resources", "track.png")), 0.73)
 
-FINISH = scale_images(pygame.image.load(os.path.join("./Resources", "Car_Racer",  "finish.png")), 0.8)
+FINISH = scale_images(pygame.image.load(os.path.join("./Version 1.0", "Resources", "finish.png")), 0.8)
 FINISH_MASK = pygame.mask.from_surface(FINISH)
 FINISH_POSITION = (110, 190)
 
 
-BACKGROUND = scale_images(pygame.image.load(os.path.join("./Resources", "Car_Racer_V_1_0",  "background.png")), 1.1)
+BACKGROUND = scale_images(pygame.image.load(os.path.join("./Version 1.0", "Resources",   "background.png")), 1.1)
 BACKGROUND_HEIGHT = BACKGROUND.get_height()
 BACKGROUND_WIDTH = BACKGROUND.get_width()
 
 
 
 #loading all the sounds
-INTRO = pygame.mixer.Sound(os.path.join("./Resources", "Car_Racer_V_1_0", "intro.wav"))
-BOUNCE = pygame.mixer.Sound(os.path.join("./Resources", "Car_Racer_V_1_0", "bounce_sound.wav"))
+INTRO = pygame.mixer.Sound(os.path.join("./Version 1.0", "Resources", "intro.wav"))
+BOUNCE = pygame.mixer.Sound(os.path.join("./Version 1.0", "Resources", "bounce_sound.wav"))
 BOUNCE.set_volume(0.2)
-CAR = pygame.mixer.Sound(os.path.join("./Resources", "Car_Racer_V_1_0", "car_sound.wav"))
+CAR = pygame.mixer.Sound(os.path.join("./Version 1.0", "Resources", "car_sound.wav"))
 CAR.set_volume(0.1)
-CLICK = pygame.mixer.Sound(os.path.join("./Resources", "Car_Racer_V_1_0", "click_sound.wav"))
-LOST = pygame.mixer.Sound(os.path.join("./Resources", "Car_Racer_V_1_0", "lost_sound.wav"))
-WON = pygame.mixer.Sound(os.path.join("./Resources", "Car_Racer_V_1_0", "win_sound.wav"))
-DECELERATION = pygame.mixer.Sound(os.path.join("./Resources", "Car_Racer_V_1_0", "deceleration.wav"))
-LEVEL = pygame.mixer.Sound(os.path.join("./Resources", "Car_Racer_V_1_0", "level_up.flac"))
+CLICK = pygame.mixer.Sound(os.path.join("./Version 1.0", "Resources", "click_sound.wav"))
+LOST = pygame.mixer.Sound(os.path.join("./Version 1.0", "Resources", "lost_sound.wav"))
+WON = pygame.mixer.Sound(os.path.join("./Version 1.0", "Resources", "win_sound.wav"))
+DECELERATION = pygame.mixer.Sound(os.path.join("./Version 1.0", "Resources", "deceleration.wav"))
+LEVEL = pygame.mixer.Sound(os.path.join("./Version 1.0", "Resources", "level_up.flac"))
 
 
 
